@@ -2,7 +2,7 @@ date
 
 pwd
 
-cd ../
+cd ~/Workspaces/Blog/Super/
 
 /usr/bin/git pull
 
