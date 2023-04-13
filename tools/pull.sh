@@ -1,5 +1,7 @@
 date
 
+pwd
+
 cd ../
 
 /usr/bin/git pull
