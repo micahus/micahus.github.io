@@ -1,4 +1,4 @@
-baseURL: 'https://super.micah.wiki/'
+baseURL: 'https://s.micah.wiki/'
 languageCode: 'en-us'
 title: 'Micah’s WIKI'
 theme: 'PaperMod'
@@ -16,14 +16,18 @@ minify:
     disableXML: true
     # minifyOutput: true
 
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        taxonomies:
-          category: categories
-          tag: tags
-          series: series
+menu:
+    main:
+        - name: Post
+          url: posts/
+          weight: 5
+        - name: Categories
+          url: categories/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
 
 outputs:
     home:
@@ -36,7 +40,7 @@ params:
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
