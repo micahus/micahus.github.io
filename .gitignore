@@ -5,5 +5,5 @@ public
 .hugo_build.lock
 
 # local file
-#config.yml
+config.yml
 .DS_Store
