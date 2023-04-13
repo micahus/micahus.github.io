@@ -1,12 +1,8 @@
 ---
 title: "Golang"
-weight: 9
-bookCollapseSection: true
-
-
+date: 2022-05-20T20:27:49+08:00
+tags: ["Golang"]
+categories: ["Tech"]
 ---
 
-# Golang相关
-
-Doing...
-
+Golang 相关

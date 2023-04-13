@@ -1,10 +1,8 @@
 ---
 title: "Java"
-weight: 10
-bookCollapseSection: true
-
+date: 2022-05-20T20:27:49+08:00
+tags: ["Java"]
+categories: ["Tech"]
 ---
 
-# Java相关
-
-Doing...
+Java相关
