@@ -51,3 +51,5 @@ params:
     ShowToc: true
     # comments: false
     # images: ["papermod-cover.png"]
+    assets:
+        favicon: favicons/favicon.ico
