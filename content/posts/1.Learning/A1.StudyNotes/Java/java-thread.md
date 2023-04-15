@@ -2,7 +2,7 @@
 title: "Java线程"
 date: 2022-06-02T10:22:45+08:00
 tags: ["java"]
-categories: ["Tech"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 # 线程

@@ -2,7 +2,7 @@
 title: "Java内存模型"
 date: 2022-06-02T10:21:01+08:00
 tags: ["java"]
-categories: ["Tech"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 # Java内存模型（JMM）

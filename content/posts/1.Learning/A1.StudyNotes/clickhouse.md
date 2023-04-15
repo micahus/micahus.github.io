@@ -2,7 +2,7 @@
 title: "ClickHouse"
 date: 2022-10-02T14:54:45+08:00
 tags: ["clickhouse"]
-categories: ["Tech"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 # ClickHouse

@@ -1,11 +1,9 @@
 ---
 title: "雪花算法"
 date: 2022-06-29T16:43:16+08:00
-tags: ["java"]
-categories: ["Tech"]
+tags: ["雪花算法"]
+categories: ["Learning", "StudyNotes"]
 ---
-
-# 雪花算法
 
 ## 1. 历史
 

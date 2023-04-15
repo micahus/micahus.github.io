@@ -1,11 +1,9 @@
 ---
 title: "图片服务整体架构"
 date: 2022-06-09T15:09:21+08:00
-tags: ["cdn"]
-categories: ["Tech"]
+tags: ["CDN"]
+categories: ["Learning", "Reflections"]
 ---
-
-# 海外图片服务
 
 ## 1.背景
 
