@@ -2,7 +2,7 @@
 title: "gitbook在docker内进行安装编译"
 date: 2022-11-06T16:54:57+08:00
 tags: ["gitbook"]
-categories: ["Tech"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 # Gitbook与Docker

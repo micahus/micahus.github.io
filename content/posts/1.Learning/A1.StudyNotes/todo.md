@@ -2,7 +2,7 @@
 title: "TodoList"
 date: 2023-04-13T19:57:12+08:00
 tags: ["待完成"]
-categories: ["Todo"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 TODO未整理

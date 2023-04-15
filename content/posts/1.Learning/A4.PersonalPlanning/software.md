@@ -1,10 +1,17 @@
 ---
 title: "Mac常用软件"
 date: 2022-03-05T15:45:00+08:00
-tags: ["mac"]
-categories: ["Interest"]
-
+tags: ["soft"]
+categories: ["Learning", "PersonalPlanning"]
 ---
+
+## Phone
+
+| 分类 | 名称      | 地址     | 说明 |
+| ---- | --------- | -------- | ---- |
+| 财务 | Money Pro | appstore | 记账 |
+
+## Mac
 
 | 分类 | 名称           | 地址                                          | 功能           |
 | ---- | -------------- | --------------------------------------------- | -------------- |

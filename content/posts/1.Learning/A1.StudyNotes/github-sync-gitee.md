@@ -2,7 +2,7 @@
 title: "Github同步Gitee"
 date: 2022-03-02T13:48:42+08:00
 tags: ["github","gitee"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 ## 问题

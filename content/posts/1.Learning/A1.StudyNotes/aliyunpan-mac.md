@@ -2,7 +2,7 @@
 title: "阿里云盘mac本地挂在"
 date: 2022-03-19T21:06:28+08:00 
 tags: ["aliyundriver"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 主要参考文档：https://blog.51cto.com/xuedingmaojun/4815572

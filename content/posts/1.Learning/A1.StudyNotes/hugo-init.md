@@ -2,7 +2,7 @@
 title: "Hugo项目部署"
 date: 2022-03-13T21:06:28+08:00 
 tags: ["hugo"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 # 安装

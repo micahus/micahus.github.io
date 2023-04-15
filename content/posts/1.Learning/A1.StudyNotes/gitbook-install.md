@@ -2,7 +2,7 @@
 title: "如何编写 Gitbook"
 date: 2022-03-01T01:13:27+08:00
 tags: ["gitbook"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 ## 环境

@@ -2,7 +2,7 @@
 title: "黑苹果未完善问题点"
 date: 2022-03-19T21:06:28+08:00 
 tags: ["hackintool"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 - [ ] 前置耳机无声音

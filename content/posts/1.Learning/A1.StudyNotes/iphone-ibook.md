@@ -2,7 +2,7 @@
 title: "免费的苹果iBook软件"
 date: 2022-03-01T01:01:19+08:00
 tags: ["phone"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 ## 如何操作

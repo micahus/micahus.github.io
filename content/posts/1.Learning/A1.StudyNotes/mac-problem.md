@@ -2,7 +2,7 @@
 title: "苹果系统问题"
 date: 2022-03-01T01:04:18+08:00
 tags: ["mac"]
-categories: ["Interest"]
+categories: ["Learning", "StudyNotes"]
 ---
 
 ## 1.邮箱无法删除

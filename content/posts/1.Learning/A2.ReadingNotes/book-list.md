@@ -2,7 +2,7 @@
 title: "读书列表"
 date: 2022-08-21T22:36:07+08:00
 tags: ["book"]
-categories: ["Interest"]
+categories: ["Learning", "ReadingNotes"]
 ---
 
 Copy From: [awesome-architecture](https://github.com/toutiaoio/awesome-architecture)
