@@ -48,7 +48,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    ShowToc: false
     # comments: false
     # images: ["papermod-cover.png"]
     assets:
