@@ -7,3 +7,4 @@ public
 # local file
 config.toml
 .DS_Store
+.idea
