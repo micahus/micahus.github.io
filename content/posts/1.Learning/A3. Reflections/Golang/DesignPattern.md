@@ -2,7 +2,7 @@
 title: "设计模式"
 date: 2023-02-01T14:26:42+08:00
 tags: ["Golang"]
-categories: ["Tech"]
+categories: ["Learning", "Refections"]
 ---
 
 ## 1. 单一职责
