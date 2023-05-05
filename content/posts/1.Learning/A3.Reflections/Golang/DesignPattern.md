@@ -2,11 +2,7 @@
 title: "设计模式"
 date: 2023-02-01T14:26:42+08:00
 tags: ["Golang"]
-<<<<<<< HEAD:content/posts/1.Learning/A1.StudyNotes/Golang/DesignPattern.md
 categories: ["Learning", "StudyNotes"]
-=======
-categories: ["Learning", "Refections"]
->>>>>>> f0ef23dabe68f38bc338af037d037a566ddad10e:content/posts/1.Learning/A3. Reflections/Golang/DesignPattern.md
 ---
 
 ## 1. 单一职责
