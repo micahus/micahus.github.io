@@ -2,7 +2,7 @@
 title: "mybatis"
 date: 2022-07-06T16:43:01+08:00
 tags: ["mybatis"]
-categories: ["Learning", "StudyNotes"]
+categories: ["Learning", "Refections"]
 ---
 
 ```
