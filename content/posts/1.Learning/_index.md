@@ -12,3 +12,7 @@ categories: ["Learning"]
 * 读书笔记 (Reading Notes)
 * 思考总结 (Reflections)
 * 个人规划 (Personal Planning)
+
+想要系统性地掌握某项技巧，应该有以下的一套思路，之前经常只是第一步，没有做到后面几步。
+
+![image-20230606141712998](https://image.shijinping.cn/picgo/image-20230606141712998.png)
