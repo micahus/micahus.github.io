@@ -1,7 +1,7 @@
 ---
 title: "报告撰写"
 date: 2023-04-15T14:16:05+08:00
-categories: ["Wrok", "ReportWriting"]
+categories: ["Work", "ReportWriting"]
 ---
 
 指工作中撰写各类报告的能力，包括调研报告、年度报告、销售报告等
