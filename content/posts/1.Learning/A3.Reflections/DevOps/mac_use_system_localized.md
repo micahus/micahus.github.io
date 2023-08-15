@@ -2,7 +2,7 @@
 title: "Mac电脑如何配置有格式的文件夹"
 date: 2023-04-20T09:01:37+08:00
 tags: ["DevOps"]
-categories: ["Learning", "Refections"]
+categories: ["Learning", "Reflections"]
 ---
 
 ```shell

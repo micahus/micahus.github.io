@@ -1,7 +1,7 @@
 ---
 title: "思考总结"
 date: 2023-04-15T11:04:48+08:00
-categories: ["Learning", "Refections"]
+categories: ["Learning", "Reflections"]
 ---
 
 指对所学知识进行深入思考后的总结和反思，旨在促进自我认识和提升学习效果

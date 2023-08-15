@@ -2,7 +2,7 @@
 title: "宇宙遐想"
 date: 2023-02-16T00:24:42+08:00
 tags: ["宇宙","地球"]
-categories: ["Learning", "Refections"]
+categories: ["Learning", "Reflections"]
 ---
 
 以下内容属于遐想，并非真实
