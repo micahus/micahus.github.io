@@ -6,7 +6,7 @@ categories: ["Learning", "Reflections"]
 
 ---
 
-# Atomic工具类
+# Atomic*工具类
 
 ## AtomicBoolean
 
@@ -23,8 +23,6 @@ private volatile int value;
 
 set时使用句柄（VarHandle）来进行设置value，获取时使用value进行获取
 
-
-
 ## AtomicInteger
 
 ### 1. 成员变量
@@ -39,6 +37,16 @@ private volatile int value;
 
 与Boolean类似
 
+## AtomicLong
+
+### 1. 成员变量
+
+```java
+
+```
+
+# Atomic*Array工具类
+
 ## AtomicIntegerArray
 
 ### 1. 成员变量
@@ -48,12 +56,3 @@ private static final VarHandle AA = MethodHandles.arrayElementVarHandle(int[].cl
 private final int[] array;
 ```
 
-
-
-## AtomicLong
-
-### 1. 成员变量
-
-```java
-
-```
