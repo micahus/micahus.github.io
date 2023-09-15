@@ -219,6 +219,8 @@ func main() {
 		log.Fatalf("failed to serve: %v", err)
 	}
 }
-
 ```
 
+### 3.4 整体项目结构
+
+![image-20230915214227611](https://image.shijinping.cn/picgo/202309152142382.png)
