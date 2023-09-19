@@ -105,4 +105,6 @@ func (q *Queue) Pop() interface{} {
 >
 > 其中 1 实现的 sort/sort.go中的 `type Interface interface` 接口，所以需要使用的是Queue对象。
 >
-> 而 2 实现的是对Queue的插入、获取方法，这些方法如果需要对<red>指针对象</red>进行操作，如果不是指针对象，而是复制对象，那不会影响原来的值，就没有意义。
+> 而 2 实现的是对Queue的插入、获取方法，这些方法如果需要对<red>指针对象</red>进行操作，如果不是指针对象，而是复制对象，那不会影响原来的值，就没有意义。 
+>
+> 注：具体关于优先级别队列的，可以参照 [网上介绍](https://ieevee.com/tech/2018/01/29/go-heap.html)
