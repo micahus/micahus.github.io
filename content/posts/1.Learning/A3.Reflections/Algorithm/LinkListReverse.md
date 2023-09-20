@@ -5,11 +5,13 @@ tags: ["Algorithm"]
 categories: ["Learning", "Reflections"]
 ---
 
+这里没有记住，需要在吸收下
+
 ## 链表反转
 
 [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
 
-### for循环进行处理
+### for循环处理
 
 时间复杂度O(N)（循环整个链表）,空间复杂度O(1)，只有几个临时变量
 
@@ -57,4 +59,78 @@ head.Next.Next = head
 head.Next = nil
 return last
 ```
+
+## 反转链表中间部分
+
+[92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
+
+### for 循环处理
+
+![image-20230920093054992](https://image.shijinping.cn/picgo/202309200930649.png)
+
+这里分成三部分：
+
+1. 前段：不需要反转的
+2. 中段：需要反转的
+3. 后段：不需要反转的
+
+如果这里left是0，那么就会出现前段为空，那么一般情况是加上dummy节点来处理。步骤分别是：
+
+1. 把p0的next的next指向current
+2. 把p0的next是pre
+
+```go
+	if head == nil || head.Next == nil {
+		return head
+	}
+
+	dummy := &ListNode{Next: head}
+	p0 := dummy
+	for i := 0; i < left-1; i++ { // 注意：这里需要left-1，而不是left，因为需要少一个
+		p0 = p0.Next
+	}
+
+	var pre *ListNode
+	current := p0.Next
+
+	for i := 0; i < right-left+1; i++ {
+		next := current.Next
+		current.Next = pre
+		pre = current
+		current = next
+	}
+	p0.Next.Next = current // 把p0的next的next指向current
+	p0.Next = pre // 把p0的next是pre
+	return dummy.Next
+```
+
+
+
+### 迭代处理
+
+```go
+	if head == nil || head.Next == nil {
+		return head
+	}
+	var successor *ListNode
+
+	var reverseN func(head *ListNode, n int) *ListNode
+	reverseN = func(head *ListNode, n int) *ListNode {
+		if n == 1 {
+			successor = head.Next
+			return head
+		}
+		last := reverseN(head.Next, n-1)
+		head.Next.Next = head
+		head.Next = successor
+		return last
+	}
+	if left == 1 {
+		return reverseN(head, right)
+	}
+	head.Next = reverseBetween(head.Next, left-1, right-1)
+	return head
+```
+
+
 
