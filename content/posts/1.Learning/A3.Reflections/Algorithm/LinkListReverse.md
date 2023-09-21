@@ -132,5 +132,9 @@ return last
 	return head
 ```
 
+### 按照固定的K个长度进行反转
 
+[25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
+
+这题还不会。。。
 
