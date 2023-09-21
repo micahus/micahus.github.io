@@ -138,3 +138,63 @@ return last
 
 这题还不会。。。
 
+### 走一半后，反转链表
+
+[234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
+
+#### 方法1，非正规
+
+把链表转换成数组，用数据进行处理
+
+```go
+	// 第一种：如果用slice来处理，耗时和内存占用都比较大
+	// 	执行耗时:124 ms,击败了50.65% 的Go用户
+	//	内存消耗:8.3 MB,击败了73.55% 的Go用户
+	s := make([]int, 0, 100000) // 这里cap为100000，因为最大长度是10的5次方
+	for head != nil {
+		s = append(s, head.Val)
+		head = head.Next
+	}
+	left, right := 0, len(s)-1
+	for left < right {
+		if s[left] != s[right] {
+			return false
+		}
+		left++
+		right--
+	}
+	return true
+```
+
+#### 方法2
+
+> 1. 使用快慢指针获取链表的中间位置
+> 2. 反转后半部分
+> 3. 反转后的链表和原链表进行匹配
+
+其中需要注意的部分是，怎么判断中间部分
+
+![image-20230921170016832](https://image.shijinping.cn/picgo/202309211700384.png)
+
+这里的奇数部分需要做特殊处理，当fast不是nil，就说明是奇数，那么比对的是`2、1`这两个节点，所以slow需要往后移动一格
+
+```go
+	fast, slow := head, head
+	for fast != nil && fast.Next != nil {
+		fast = fast.Next.Next
+		slow = slow.Next
+	}
+	if fast != nil {
+		slow = slow.Next // 这里就是上面图的特殊处理
+	}
+	left, right := head, reverse(slow)
+	for right != nil {
+		if left.Val != right.Val {
+			return false
+		}
+		left = left.Next
+		right = right.Next
+	}
+	return true
+```
+
