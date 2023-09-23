@@ -187,7 +187,7 @@ return last
 	if fast != nil {
 		slow = slow.Next // 这里就是上面图的特殊处理
 	}
-	left, right := head, reverse(slow)
+	left, right := head, reverse(slow) // reverse方法就是普通的反转链表
 	for right != nil {
 		if left.Val != right.Val {
 			return false
