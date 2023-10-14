@@ -26,3 +26,17 @@ SpringBootApplication --> EnableAutoConfiguration --> AutoConfigurationImportSel
 ```
 
 所以按照新版 ` META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports` 进行编写的，可以正常识别。
+
+注意：
+
+这里的内容也不一样了，之前是需要写入一行，新版本支持多行格式
+
+```java
+		Enumeration<URL> urls = findUrlsInClasspath(classLoaderToUse, location);
+		List<String> importCandidates = new ArrayList<>();
+		while (urls.hasMoreElements()) { // 如果有多行，直接支持了，把所有的都加入到importCandidates中去了
+			URL url = urls.nextElement();
+			importCandidates.addAll(readCandidateConfigurations(url));
+		}
+```
+
