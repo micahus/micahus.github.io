@@ -32,11 +32,11 @@ SpringBootApplication --> EnableAutoConfiguration --> AutoConfigurationImportSel
 这里的内容也不一样了，之前是需要写入一行，新版本支持多行格式
 
 ```java
-		Enumeration<URL> urls = findUrlsInClasspath(classLoaderToUse, location);
-		List<String> importCandidates = new ArrayList<>();
-		while (urls.hasMoreElements()) { // 如果有多行，直接支持了，把所有的都加入到importCandidates中去了
-			URL url = urls.nextElement();
-			importCandidates.addAll(readCandidateConfigurations(url));
-		}
+Enumeration<URL> urls = findUrlsInClasspath(classLoaderToUse, location);
+List<String> importCandidates = new ArrayList<>();
+while (urls.hasMoreElements()) { // 如果有多行，直接支持了，把所有的都加入到importCandidates中去了
+	URL url = urls.nextElement();
+	importCandidates.addAll(readCandidateConfigurations(url));
+}
 ```
 
