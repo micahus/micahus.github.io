@@ -33,8 +33,9 @@ git checkout tags/v0.8.9
 ```shel
 # 应该在18以上，我是20
 # 到工作目录
-npm install
-npm run build
+npm install -g pnpm
+pnpm install
+pnpm build
 ```
 
 ### 4.3 创建plist
@@ -66,9 +67,11 @@ npm run build
         <key>EnvironmentVariables</key>
         <dict>
                <key>HOME_DIR</key>
-               <string>/Users/xx</string>
+               <string>/Users/xxx</string>
                <key>APP_DIR</key>
-               <string>/Users/xxx/HomePage</string>
+               <string>/Users/xxx/gethomepage/homepage</string>
+               <key>HOMEPAGE_ALLOWED_HOSTS</key>
+               <string>homepage.xxxx,localhost:3000</string>
         </dict>
 
         <key>ProgramArguments</key>
@@ -76,16 +79,16 @@ npm run build
             <string>/bin/zsh</string>
             <string>-c</string>
             <string>-l</string>
-            <string>source $HOME_DIR/.zshrc; /usr/local/opt/node@20/bin/npm start</string>
+            <string>source $HOME_DIR/.zshrc; /Users/micah/xxx/bin/pnpm start</string>
         </array>
         <key>WorkingDirectory</key>
-        <string>/Users/xxx/HomePage</string>
+        <string>/Users/xxx/gethomepage/homepage</string>
 
         <key>StandardOutPath</key>
-        <string>/Users/xxx/HomePage/config/logs/run-info.log</string>
+        <string>/Users/xxx/homepage.micah.wiki.node.info.log</string>
 
         <key>StandardErrorPath</key>
-        <string>/Users/xxx/HomePage/config/logs/run-error.log</string>
+        <string>/Users/xxx/logs/homepage.micah.wiki.node.error.log</string>
 
     </dict>
 </plist>
